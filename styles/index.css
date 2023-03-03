@@ -1,0 +1,60 @@
+body {
+  background: #D4D4D4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.wrapper {
+  background-color: #FFFFFF;
+  width: 50%;
+  height: 100vh;
+  margin: 20px auto;
+  display: flex;
+}
+
+.wrapper .container {
+  width: 100%;
+}
+
+.wrapper .container .divider {
+  border: 1px solid #000000;
+}
+
+.wrapper .container .personal-data {
+  background: #FEB2B2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 35px;
+}
+
+.wrapper .container .personal-data img {
+  border-radius: 50%;
+}
+
+.wrapper .container .personal-data .links .social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.wrapper .container .experience .box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 10px;
+}
+
+.wrapper .container .experience .inner-divider {
+  border: 1px solid #D3D3D3;
+}
+
