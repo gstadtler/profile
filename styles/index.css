@@ -1,39 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+
 body {
-  background: #D4D4D4;
+  background: #d4d4d4;
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
-h1 {
+h1, h2 {
   margin: 0;
+  font-weight: 500;
+}
+
+h4 {
+  margin: 0;
+  font-weight: 400;
 }
 
 p {
   margin: 0;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .wrapper {
-  background-color: #FFFFFF;
-  width: 50%;
-  height: 100vh;
+  width: 75%;
   margin: 20px auto;
-  display: flex;
 }
 
 .wrapper .container {
-  width: 100%;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 4px 8px #0000002a;
+  margin-bottom: 17px;
 }
 
 .wrapper .container .divider {
-  border: 1px solid #000000;
+  border: 1px solid #d3d3d3;
 }
 
 .wrapper .container .personal-data {
-  background: #FEB2B2;
+  background: #38b2ac;
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 15px 35px;
+  border-radius: 5px 5px 0 0;
 }
 
 .wrapper .container .personal-data img {
@@ -46,15 +63,65 @@ p {
   gap: 10px;
 }
 
+.wrapper .container .experience {
+  padding: 20px;
+}
+
+.wrapper .container .experience .title {
+  padding: 25px 15px;
+}
+
 .wrapper .container .experience .box {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: 15px 15px;
+}
+
+.wrapper .container .experience .box .icon-text {
+  display: flex;
+  align-items: center;
   gap: 10px;
+  margin: 10px 0;
 }
 
-.wrapper .container .experience .inner-divider {
-  border: 1px solid #D3D3D3;
+.wrapper .container .experience .box p {
+  max-width: 60%;
 }
 
+.wrapper .container .skills-education {
+  display: flex;
+  width: 100%;
+}
+
+.wrapper .container .skills-education .skills {
+  padding: 20px 35px;
+  width: 50%;
+}
+
+.wrapper .container .skills-education .skills .title {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.wrapper .container .skills-education .skills .skill {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.wrapper .container .skills-education .vertical {
+  margin: 25px 0;
+}
+
+.wrapper .container .skills-education .education {
+  width: 50%;
+  padding: 20px 35px;
+}
+
+.wrapper .container .skills-education .education .title {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
