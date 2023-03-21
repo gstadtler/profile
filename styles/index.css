@@ -196,7 +196,7 @@ a {
   }
 
   .wrapper .container .skills-education {
-    grid-template-columns: 1fr 0fr;
+    grid-template-columns: 1fr;
   }
 
   .wrapper .container .skills-education .skills {
@@ -205,6 +205,10 @@ a {
 
   .wrapper .container .skills-education .skills .title {
     margin-bottom: 20px;
+  }
+
+  .wrapper .container .skills-education .vertical {
+    display: none;
   }
 
   .wrapper .container .skills-education .education {
